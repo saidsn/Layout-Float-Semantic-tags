@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: p130;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+
+body {
+
+    background-image: url(../images/back-image1.jpg);
+    background-color: #cccccc;
+    height: 730px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: #343A40;
+    display: flex;
+}
+
+#header h1 {
+    font-family: p130;
+    color: white;
+    margin: 10px 20px;
+}
+
+#header a {
+    font-size: 20px;
+    color: white;
+    margin: 19px 8px;
+    text-decoration: none;
+}
+
+#main .main {
+    width: 700px;
+    height: 470px;
+    margin: 80px 420px;
+    display: flex;
+}
+
+#main .main .image {
+    width: 350px;
+    height: 470px;
+}
+
+#main .main .image img {
+    width: 350px;
+    height: 470px;
+}
+
+#main .main .register {
+    width: 350px;
+    height: 470px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: white;
+
+}
+
+#main .main .register h1 {
+    font-size: 32px;
+    color: #787877;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#main .main .register form {
+    padding-top: 30px;
+    margin-left: -80px;
+}
+
+#main .main .register form .input {
+    width: 250px;
+    height: 30px;
+    margin-left: 80px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+#main .main .register form .input,
+value {
+
+    font-size: 17px;
+}
+
+#main .main .register form .submit {
+    width: 110px;
+    height: 35px;
+    margin-left: -70px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #FE8C4F;
+    border: none;
+    cursor: pointer;
+}
+
+#main .main .register form span {
+    margin-left: 40px;
+    color: #787877;
+}
+
+#main .main .register form .submit,
+value {
+    color: white;
+    font-size: 17px;
+}
+
+#main .main .register form a {
+    text-decoration: none;
+    color: dodgerblue;
+}
